@@ -1,0 +1,7 @@
+# Allow all crawlers access to everything
+User-agent: *
+Allow: /
+
+# Block sensitive or unnecessary files/folders
+Disallow: /node_modules/
+Disallow: /src/
